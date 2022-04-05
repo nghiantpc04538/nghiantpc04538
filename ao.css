@@ -1,0 +1,49 @@
+.product .heading{
+    font-size: 28px;
+    color: aquamarine;
+    text-align: center;
+    margin: 40px 0;
+}
+.product .List-product .product-item{
+    width: 22%;
+    margin:20px 20px;
+    display: inline-block;
+    text-align: center;
+    color:black;
+    z-index: 999;
+}
+.product .List-product .product-item img{
+    max-width: 100%;
+
+}
+.product .List-product .product-item:hover{
+    font-weight: bold;
+    transform: scale(1.05);
+    ;
+}
+.product .List-product .product-item .p{
+    text-align: center;
+}
+.product .List-product .product-item .b{
+    color: aquamarine;
+}
+.tintuc .new-item{
+    width: 30%;
+    margin: 20px 22px;
+    display: inline-block;
+}
+.tintuc .new-item img{
+    width: 30%;
+}
+.product-item button{
+    margin-top: 12px;
+    height: 30px;
+    padding: 0 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.product-item button:hover{
+    background-color: aquamarine;
+}

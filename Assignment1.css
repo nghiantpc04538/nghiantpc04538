@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.thongbao{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    background:aqua;
+    color: black;
+    line-height: 40px;
+}
+.menu-logo{
+    position: relative;
+    height: 70px;
+    background:aliceblue;
+    top: 0;
+}
+.menu-logo .logo{
+    position: absolute;
+    left: 70px;
+    top: 5px;
+}
+.menu-logo nav{
+    position: absolute;
+    right: 10px;
+}
+.menu-logo nav a{
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+    margin: 0 30px;
+}
+.menu-logo nav a:hover{
+    color: blue;
+    font-weight: bold;
+    transition: all .5s linear;
+}
+.banner{
+    width: 100%;
+    /* margin-top: 100px; */
+}
+.banner img{
+    max-width: 100%;
+}
+.product .heading{
+    font-size: 28px;
+    color: aquamarine;
+    text-align: center;
+    margin: 40px 0;
+}
+.product .List-product .product-item{
+    width: 22%;
+    margin:20px 20px;
+    display: inline-block;
+    text-align: center;
+    color:black;
+    z-index: 999;
+}
+.product .List-product .product-item img{
+    max-width: 100%;
+
+}
+.product .List-product .product-item img:hover{
+    font-weight: bold;
+    transform: scale(1.2);
+}
+.product .List-product .product-item .p{
+    text-align: center;
+}
+.tintuc .new-item{
+    width: 30%;
+    margin: 20px 22px;
+    display: inline-block;
+}
+.tintuc .new-item img{
+    width: 30%;
+}
+footer{
+    max-width: 100%;
+    background-color: aquamarine;
+    color: black;
+}
+footer .footer-item{
+    width: 30%;
+    display: inline-block;
+}
+footer .link a{
+    background: aquamarine;
+    color:black;
+    display: block;
+    text-decoration: none;
+    margin: 3px 0 ;
+}
+.sliders .slider-main {
+    position: relative;
+    margin: 0 auto
+}
+
+.slider-prev,
+.slider-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f3e385;
+    background-color: transparent;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    font-size: 48px;
+    z-index: 10;
+}
+
+.slider-next {
+    right: 0;
+    top: 540px;
+}
+
+.slider-prev {
+    left: 0;
+    top: 500px;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 640px;
+}
